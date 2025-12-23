@@ -1,18 +1,15 @@
 # ===== Python =====
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
-.venv/
-venv/
 
-# ===== Data (DO NOT COMMIT) =====
+# ===== DeepMIMO Dataset =====
+deepmimo_scenarios/*
+!deepmimo_scenarios/.gitkeep
+
 *.mat
 *.h5
 *.npz
 *.npy
-deepmimo_scenarios/
 
 # ===== Experiment Outputs =====
 results/
@@ -20,8 +17,8 @@ outputs/
 logs/
 figures/
 
-# ===== OS / IDE =====
-.DS_Store
-Thumbs.db
+# ===== IDE / OS =====
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
