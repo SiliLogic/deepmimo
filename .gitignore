@@ -1,32 +1,27 @@
-# ==========================
-# DeepMIMO Dataset (DO NOT TRACK)
-# ==========================
-deepmimo_scenarios/
-*.mat
-
-# ==========================
-# Experiment outputs
-# ==========================
-results/
-outputs/
-logs/
-
-# ==========================
-# Python cache
-# ==========================
+# ===== Python =====
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.env
+.venv/
+venv/
 
-# ==========================
-# IDE / Editor
-# ==========================
-.vscode/
-.idea/
+# ===== Data (DO NOT COMMIT) =====
+*.mat
+*.h5
+*.npz
+*.npy
+deepmimo_scenarios/
 
-# ==========================
-# OS
-# ==========================
+# ===== Experiment Outputs =====
+results/
+outputs/
+logs/
+figures/
+
+# ===== OS / IDE =====
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
